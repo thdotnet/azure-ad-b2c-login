@@ -2,6 +2,11 @@
 <html>
 	<head>
 		<title>B2C Login</title>
+		<script>
+			const urlParams = new URLSearchParams(window.location.search);
+			const myParam = urlParams.get('email');
+			console.log(myParam);
+		</script>
 	</head>
 	<body>
 		<h1>Login</h1>
